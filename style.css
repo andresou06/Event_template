@@ -1,0 +1,337 @@
+* {
+   box-sizing: border-box; 	
+}
+
+html {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smmoth;
+}
+
+@keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+}
+
+@keyframes leftIn {
+        from {width: 0%;}
+        to {width: 100%;}
+}
+
+body {
+      margin: 0;
+      padding: 0;	
+      animation: fadeIn 2s ease-in-out;
+      z-index: 9999;      
+
+}
+
+.protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cinzel-regular {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* #####################################*/
+/* Mobile Only 
+/* #####################################*/
+
+.headers {
+display:flex;
+justify-content: space-around;
+margin: 0;
+color: aliceblue;
+}
+
+.headers svg {
+ margin: 1rem;
+  width: 2rem;
+  color: rgb(255, 255, 255);
+  
+}
+.headers svg:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.sections {
+display: none;
+}
+
+.nested_headers {
+border: solid transparent 2px;
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+background-color: rgb(236, 0, 0);
+
+padding: 0;
+
+}
+
+.close_header {
+margin-left: 80%;
+padding: 0.5rem;
+border-radius: 100%;
+}
+
+.list {
+  font-size: 3rem;
+  
+}
+
+.nested_headers li {
+  margin: 1rem;
+}
+
+
+.nested_headers li:hover {
+ cursor: pointer;
+ opacity: 0.7;
+ color: aliceblue;
+}
+
+.contact img {
+  width: 30px;
+  height: 30px;
+  /* background-color: aliceblue; */
+ 
+}
+.contact img:hover {
+  
+  cursor: pointer;
+  background-color: aliceblue;
+  border-radius: 100%;
+}
+
+
+
+/* #####################################*/
+/* Blend Desktop and Mobile
+/* #####################################*/
+
+main {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+#background-video1 {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  opacity: 0.5;
+}
+.info-first {
+  padding: 2rem;
+  width: 80%;
+  color: blue;
+}
+
+
+.actions {
+  display: grid;
+}
+
+.actions span {
+  display: grid;
+  border: solid blue;
+  margin: 1rem;
+border-radius: 10%;
+justify-items: center;
+  color:black ;
+}
+
+.actions span:hover {
+  cursor: pointer;
+  background-color: rgb(5, 5, 248,0.4);
+}
+/* .background-video [data-state="play"] {
+  display: block;
+}
+
+.background-video [data-state="close"] {
+  display: none;
+} */
+
+figure {
+  max-width: 64rem;
+  width: 100%;
+  max-height: fit-content;
+  height: 100%;
+  margin: 1.25rem auto;
+  padding: 1.051%;
+  background-color: #666;
+}
+
+
+/* #####################################*/
+
+@media screen and (min-width: 768px), (max-width: 1024) {
+
+@keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+}
+
+@keyframes leftIn {
+        from {width: 0%;}
+        to {width: 100%;}
+}
+
+body {
+
+      animation: fadeIn 2s ease-in-out;
+      z-index: 9999;
+
+}
+
+.protest-revolution-regular {                                       
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ .cinzel-regular {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.svg_btn {
+display: none;
+}
+
+.sections {
+font-style: 1.5rem;
+display: block;
+}
+
+
+}
+
+
+/* #####################################*/
+
+@media screen and (min-width: 1025px) {
+
+@keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+}
+
+@keyframes leftIn {
+        from {width: 0%;}
+        to {width: 100%;}
+}
+
+body {
+
+      animation: fadeIn 2s ease-in-out;
+      z-index: 9999;
+
+}
+
+.protest-revolution-regular {				       
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ .cinzel-regular {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.svg_btn {
+        display: none;
+}
+
+.sections {
+        font-style: 1.5rem;
+display: block;
+}
+
+}
+
