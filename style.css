@@ -22,7 +22,8 @@ body {
       margin: 0;
       padding: 0;	
       animation: fadeIn 2s ease-in-out;
-      z-index: 9999;      
+      z-index: 9999;
+      
 
 }
 
@@ -90,25 +91,29 @@ display: none;
 }
 
 .nested_headers {
+  animation: fadeIn 1s ease-in-out;
 border: solid transparent 2px;
 width: 100vw;
 height: 100vh;
 object-fit: cover;
 background-color: rgb(236, 0, 0);
+border: solid black 5px;
 
 padding: 0;
 
 }
 
 .close_header {
+
 margin-left: 80%;
+margin-top: 1rem;
 padding: 0.5rem;
 border-radius: 100%;
 }
 
 .list {
   font-size: 3rem;
-  
+  padding: 1rem;
 }
 
 .nested_headers li {
@@ -135,7 +140,38 @@ border-radius: 100%;
   border-radius: 100%;
 }
 
+.artists ul {
+  display: flex;
+  background-color: rgb(43, 51, 43,0.3);
+  padding: 0.5rem;
+  animation: slide 15s infinite ease-in;
+}
 
+.artists img {
+  padding: 0;
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+  border: solid black 2px;
+  
+}
+/* 
+@keyframes slide {
+  from {transform: translate(0%);}
+  to {transform: translate(100%); }
+} */
+.artists  img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  scale: 1.05;
+ 
+  
+}
+
+
+main div {
+  margin: 1rem;
+}
 
 /* #####################################*/
 /* Blend Desktop and Mobile
@@ -181,8 +217,9 @@ ul {
 .info-first {
   display: grid;
   justify-items: center;
-  padding: 2rem;
-  width: 80%;
+  margin-top: 5rem;
+ font-size: 130%;
+  width: 100%;
   color: blue;
 }
 
@@ -194,6 +231,7 @@ ul {
 .actions span {
   display: grid;
   border: solid blue;
+  background-color: rgb(102, 102, 228, 0.7);
   margin: 1rem;
 border-radius: 10%;
 justify-items: center;
@@ -374,11 +412,13 @@ justify-items: center;
 .sect-one, .sect-two, .sect-three, .sect-four li{
   font-size: 2rem;
   margin: 1rem;
+
  
  
 }
-.sect-one, .sect-two, .sect-three, .sect-four li:hover{
-
+.sect-one li:hover, .sect-two li:hover, .sect-three li:hover, .sect-four li:hover{
+ text-decoration: underline;
+ color: brown;
 }
 
 }
