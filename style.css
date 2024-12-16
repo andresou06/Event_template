@@ -26,6 +26,22 @@ body {
       
 
 }
+.sixtyfour-convergence-title {
+  font-family: "Sixtyfour Convergence", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .protest-revolution-regular {
     font-family: "Protest Revolution", sans-serif;
@@ -67,6 +83,7 @@ body {
 /* #####################################*/
 /* Mobile Only 
 /* #####################################*/
+
 
 .headers {
 display:flex;
@@ -140,27 +157,27 @@ border-radius: 100%;
   border-radius: 100%;
 }
 
-.artists ul {
+.slide {
   display: flex;
-  background-color: rgb(43, 51, 43,0.3);
+  background-color: rgba(255, 255, 255);
   padding: 0.5rem;
-  animation: slide 15s infinite ease-in;
+  /* animation: slide 15s infinite ease-in; */
 }
 
-.artists img {
+.slide img {
   padding: 0;
-  width: 10rem;
-  height: 10rem;
+  width: 70vw;
+  height: 50vh;
   margin: 1rem;
   border: solid black 2px;
   
 }
-/* 
+
 @keyframes slide {
   from {transform: translate(0%);}
   to {transform: translate(100%); }
-} */
-.artists  img:hover {
+}
+.slide  img:hover {
   cursor: pointer;
   opacity: 0.8;
   scale: 1.05;
@@ -384,7 +401,7 @@ ul {
 
 
 .info-first {
-  font-size: 2rem;
+  font-size: 2.5rem;
   width: 100%;
   color: blue;
 }

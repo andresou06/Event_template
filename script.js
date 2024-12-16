@@ -91,3 +91,15 @@ sectFour.addEventListener('mouseout', () => {
 outZone.addEventListener('mouseover', () => {
     sectFour.style.display = 'none';
 })
+
+///####################################
+
+//SLIDE
+
+// const first_slide = document.querySelector('#firstImg');
+
+// const second_slide = document.querySelector('#secondImg');
+
+// first_slide.addEventListener('mouseover', () {
+//     first_slide.style.
+// })
