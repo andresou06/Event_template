@@ -72,6 +72,7 @@ body {
     font-family: "Creepster", system-ui;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 2px 2px rgb(236, 0, 0);
   }
   .press-start-2p-regular {
     font-family: "Press Start 2P", system-ui;
@@ -238,6 +239,7 @@ ul {
  font-size: 130%;
   width: 100%;
   color: blue;
+  text-shadow: 2px 2px rgb(236, 0, 0);
 }
 
 
@@ -253,6 +255,7 @@ ul {
 border-radius: 10%;
 justify-items: center;
   color:black ;
+  text-shadow: 2px 2px rgb(236, 0, 0);
 }
 
 .actions span:hover {
